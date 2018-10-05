@@ -5,7 +5,7 @@ object homero {
 	method comerRosquilla(){
 		cantRosquillas += 1
 		if(cantRosquillas == 10){
-			self.irAlMedico()
+		   self.irAlMedico()
 		}
 	}
 	
