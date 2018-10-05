@@ -59,7 +59,7 @@ object maggie{
 object drNick{
 	
 	var salaDeEspera = []
-	var nivelLocura = 0
+	var property nivelLocura = 0
 	
 	method recibir(paciente){
 		salaDeEspera.add(paciente)
@@ -83,9 +83,12 @@ object drNick{
 		salaDeEspera.remove(salaDeEspera.last())
 	}	
 	
-	method nivelLocura(){
-		return nivelLocura
-	}
+//	method nivelLocura(){
+//		return nivelLocura
+//	}
+//	method nivelLocura(nivel){
+//		nivelLocura = nivel
+//	}
 	
 }
 
